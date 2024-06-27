@@ -1,0 +1,16 @@
+<!-- demoapp/templates/demoapp/display_cookie_session.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cookie and Session Demo</title>
+</head>
+<body>
+    <h2>Cookie and Session Information</h2>
+    <h3>Cookies:</h3>
+    <p>My Cookie: {{ request.COOKIES.my_cookie }}</p>
+    
+    <h3>Sessions:</h3>
+    <p>My Session: {{ request.session.my_session }}</p>
+</body>
+</html>
